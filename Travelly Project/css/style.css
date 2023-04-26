@@ -3,6 +3,7 @@
 @import url('./header/header.css');
 @import url('./hero/hero.css');
 @import url('./locations/locations.css');
+@import url('./benefits/benefits.css');
 
 /* Reset CSS */
 * {
@@ -32,11 +33,11 @@ h1 {
     font-size: 2.4rem;
 }
 
-h2 {
+h3 {
     font-size: 3.8rem;
 }
 
-h3 {
+h2 {
     font-size: 2.5rem;
     font-weight: normal;
 }

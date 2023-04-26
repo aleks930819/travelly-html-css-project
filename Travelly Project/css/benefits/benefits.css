@@ -1,0 +1,76 @@
+/* Benefits Section */
+
+
+.benefits-head {
+    background-color: #131c27;
+    padding: 3rem;
+    min-height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.benefits-head h3 {
+    padding: 1rem;
+}
+
+#benefits .cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-height: 70vh;
+}
+
+
+
+#benefits .card {
+    flex: 1 1 25rem;
+    min-height: 50vh;
+    margin: 2rem 5rem;
+    color: black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+
+.card img {
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    margin: 1rem;
+}
+
+.card h4 {
+    padding: 2rem;
+}
+
+.card p {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.card-icon {
+    background: #131c27;
+}
+
+
+@media screen and (max-width:768px) {
+
+    #benefits .cards {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #benefits .card {
+        min-height: 20vh;
+    }
+
+
+}
