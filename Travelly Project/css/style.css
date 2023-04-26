@@ -1,3 +1,5 @@
+@import url('./header/header.css');
+@import url('./hero/hero.css');
 
 /* Reset CSS */
 * {
@@ -7,5 +9,38 @@
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px */
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+/* Global CSS */
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4,
+h5 {
+    font-size: 2.7rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
 }
