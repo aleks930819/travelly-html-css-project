@@ -2,6 +2,7 @@
 
 @import url('./header/header.css');
 @import url('./hero/hero.css');
+@import url('./locations/locations.css');
 
 /* Reset CSS */
 * {
@@ -32,17 +33,17 @@ h1 {
 }
 
 h2 {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: normal;
 }
 
 h4,
 h5 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 li,
@@ -66,5 +67,12 @@ button {
     border-radius: .5rem;
     background-color: #4c6397;
     color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
 
+}
+
+button:hover {
+    background-color: #38445f;
 }

@@ -1,0 +1,69 @@
+/* Benefits Section */
+
+#locations {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), transparent), url("../../img/new-york-page.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.locations-head {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.locations-head h2 {
+    padding: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #f9a826;
+}
+
+.cloud {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.moving-cloud-1 {
+    opacity: .8;
+    animation: cloudAnimation 10s linear infinite;
+}
+
+.moving-cloud-2 {
+    top: 20%;
+    z-index: -1;
+    opacity: .5;
+    animation: cloudAnimation 10s linear infinite;
+
+}
+
+@keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -10%);
+    }
+
+    to {
+        transform: translate(0%, -0%);
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .locations-head h2 {
+        margin-top: 10rem;
+    }
+
+
+
+
+}
