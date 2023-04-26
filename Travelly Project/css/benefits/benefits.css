@@ -2,7 +2,7 @@
 
 
 .benefits-head {
-    background-color: #131c27;
+    background-color: var(--color-main);
     padding: 3rem;
     min-height: 30vh;
     color: white;
@@ -57,7 +57,7 @@
 }
 
 .card-icon {
-    background: #131c27;
+    background: var(--color-main);
 }
 
 

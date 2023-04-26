@@ -1,7 +1,7 @@
 /* Nav Section */
 
 .main-head {
-    background-color: #131c27;
+    background-color: var(--color-main);
     color: white;
 
 }

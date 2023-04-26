@@ -4,6 +4,12 @@
 @import url('./hero/hero.css');
 @import url('./locations/locations.css');
 @import url('./benefits/benefits.css');
+@import url('./contact-us/contact-us.css');
+@import url('./footer/footer.css');
+
+:root {
+    --color-main: #131c27;
+}
 
 /* Reset CSS */
 * {
